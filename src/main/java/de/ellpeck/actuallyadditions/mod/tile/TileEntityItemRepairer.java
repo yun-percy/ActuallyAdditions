@@ -24,8 +24,8 @@ public class TileEntityItemRepairer extends TileEntityInventoryBase implements I
 
     public static final int SLOT_INPUT = 0;
     public static final int SLOT_OUTPUT = 1;
-    public static final int ENERGY_USE = 5000;
-    public final EnergyStorage storage = new EnergyStorage(300000);
+    public static final int ENERGY_USE = 200;
+    public final EnergyStorage storage = new EnergyStorage(2400000);
     public int nextRepairTick;
     private int lastEnergy;
 
@@ -90,7 +90,7 @@ public class TileEntityItemRepairer extends TileEntityInventoryBase implements I
                         this.storage.extractEnergy(ENERGY_USE, false);
                         if(this.nextRepairTick >= 4){
                             this.nextRepairTick = 0;
-                            input.setItemDamage(input.getItemDamage()-1);
+                            input.setItemDamage(input.getItemDamage()-10);
 
                             if(input.hasTagCompound()){
                                 //TiCon un-break tools

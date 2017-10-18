@@ -237,7 +237,7 @@ public final class BlockCrafting{
         //Atomic Reconstructor
         if(ConfigCrafting.ATOMIC_RECONSTRUCTOR.isEnabled()){
             GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(InitBlocks.blockAtomicReconstructor),
-                    "IRI", "RCR", "IRI",
+                    "I  ", " C ", "  R",
                     'R', "dustRedstone",
                     'I', "ingotIron",
                     'C', new ItemStack(InitBlocks.blockMisc, 1, TheMiscBlocks.IRON_CASING.ordinal())));
@@ -589,7 +589,7 @@ public final class BlockCrafting{
 
         //Enderpearl Block
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(InitBlocks.blockMisc, 1, TheMiscBlocks.ENDERPEARL_BLOCK.ordinal()),
-                "EE", "EE",
+                "E", "E",
                 'E', Items.ENDER_PEARL));
         recipeEnderPearlBlock = RecipeUtil.lastIRecipe();
         GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(Items.ENDER_PEARL, 4),
@@ -613,7 +613,7 @@ public final class BlockCrafting{
         //Repairer
         if(ConfigCrafting.REPAIRER.isEnabled()){
             GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(InitBlocks.blockItemRepairer),
-                    "DID", "OCO", "DID",
+                    " D ", "OCO", " I ",
                     'D', new ItemStack(InitBlocks.blockCrystalEmpowered, 1, TheCrystals.DIAMOND.ordinal()),
                     'I', new ItemStack(InitItems.itemCrystalEmpowered, 1, TheCrystals.IRON.ordinal()),
                     'O', new ItemStack(InitItems.itemMisc, 1, TheMiscItems.COIL.ordinal()),
@@ -624,7 +624,7 @@ public final class BlockCrafting{
         //Solar Panel
         if(ConfigCrafting.SOLAR_PANEL.isEnabled()){
             GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(InitBlocks.blockFurnaceSolar),
-                    "IQI", "CDC", "IBI",
+                    " Q ", "CDI", " B ",
                     'D', new ItemStack(InitItems.itemCrystal, 1, TheCrystals.DIAMOND.ordinal()),
                     'I', new ItemStack(InitItems.itemCrystalEmpowered, 1, TheCrystals.IRON.ordinal()),
                     'Q', new ItemStack(InitBlocks.blockMisc, 1, TheMiscBlocks.IRON_CASING.ordinal()),
@@ -703,7 +703,7 @@ public final class BlockCrafting{
         //Double Furnace
         if(ConfigCrafting.DOUBLE_FURNACE.isEnabled()){
             GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(InitBlocks.blockFurnaceDouble),
-                    "PDC", "RFR", "CDP",
+                    " C ", "RFD", " P ",
                     'C', "cobblestone",
                     'D', new ItemStack(InitItems.itemMisc, 1, TheMiscItems.COIL.ordinal()),
                     'R', new ItemStack(Blocks.FURNACE),
@@ -726,21 +726,21 @@ public final class BlockCrafting{
         //Giant Chest
         if(ConfigCrafting.GIANT_CHEST.isEnabled()){
             GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(InitBlocks.blockGiantChest),
-                    "CWC", "WDW", "CWC",
+                    " W ", " D ", " C ",
                     'C', "chestWood",
                     'D', new ItemStack(InitBlocks.blockMisc, 1, TheMiscBlocks.WOOD_CASING.ordinal()),
                     'W', "plankWood"));
             recipeCrate = RecipeUtil.lastIRecipe();
 
             GameRegistry.addRecipe(new RecipeKeepDataShaped(new ItemStack(InitBlocks.blockGiantChestMedium), new ItemStack(InitBlocks.blockGiantChest),
-                    "CWC", "WDW", "CWC",
+                    " C ", " D ", " W ",
                     'C', new ItemStack(InitBlocks.blockCrystal, 1, TheCrystals.COAL.ordinal()),
                     'D', new ItemStack(InitBlocks.blockGiantChest),
                     'W', "plankWood"));
             recipeCrateMedium = RecipeUtil.lastIRecipe();
 
             GameRegistry.addRecipe(new RecipeKeepDataShaped(new ItemStack(InitBlocks.blockGiantChestLarge), new ItemStack(InitBlocks.blockGiantChestMedium),
-                    "CWC", "WDW", "CWC",
+                    " W ", " D ", " C ",
                     'C', new ItemStack(InitBlocks.blockCrystalEmpowered, 1, TheCrystals.COAL.ordinal()),
                     'D', new ItemStack(InitBlocks.blockGiantChestMedium),
                     'W', "plankWood"));
@@ -750,7 +750,7 @@ public final class BlockCrafting{
         //Greenhouse Glass
         if(ConfigCrafting.GREENHOUSE_GLASS.isEnabled()){
             GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(InitBlocks.blockGreenhouseGlass, 3),
-                    "GSG", "SDS", "GSG",
+                    "G", "D", "S",
                     'G', "blockGlass",
                     'D', new ItemStack(InitBlocks.blockCrystalEmpowered, 1, TheCrystals.LAPIS.ordinal()),
                     'S', "treeSapling"));
