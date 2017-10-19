@@ -53,9 +53,9 @@ public final class EmpowererHandler{
 
         List<ItemStack> dyes = OreDictionary.getOres(dye);
         for(ItemStack dyeStack : dyes){
-            ActuallyAdditionsAPI.addEmpowererRecipe(new ItemStack(InitItems.itemCrystal, 1, type.ordinal()), new ItemStack(InitItems.itemCrystalEmpowered, 1, type.ordinal()), dyeStack, modifier1, modifier2, modifier3, 5000, 50, color);
+            ActuallyAdditionsAPI.addEmpowererRecipe(new ItemStack(InitItems.itemCrystal, 1, type.ordinal()), new ItemStack(InitItems.itemCrystalEmpowered, 1, type.ordinal()), dyeStack, modifier1, modifier2, modifier3, 500, 50, color);
             MAIN_PAGE_RECIPES.add(RecipeUtil.lastEmpowererRecipe());
-            ActuallyAdditionsAPI.addEmpowererRecipe(new ItemStack(InitBlocks.blockCrystal, 1, type.ordinal()), new ItemStack(InitBlocks.blockCrystalEmpowered, 1, type.ordinal()), dyeStack, modifier1, modifier2, modifier3, 50000, 500, color);
+            ActuallyAdditionsAPI.addEmpowererRecipe(new ItemStack(InitBlocks.blockCrystal, 1, type.ordinal()), new ItemStack(InitBlocks.blockCrystalEmpowered, 1, type.ordinal()), dyeStack, modifier1, modifier2, modifier3, 5000, 500, color);
             MAIN_PAGE_RECIPES.add(RecipeUtil.lastEmpowererRecipe());
         }
     }
