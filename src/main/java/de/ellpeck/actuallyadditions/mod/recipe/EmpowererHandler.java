@@ -31,16 +31,16 @@ public final class EmpowererHandler{
     public static EmpowererRecipe recipeEmpoweredCanolaSeed;
 
     public static void init(){
-        addCrystalEmpowering(TheCrystals.REDSTONE, "dyeRed", new ItemStack(Items.NETHERBRICK), new ItemStack(Items.REDSTONE), new ItemStack(Items.BRICK));
-        addCrystalEmpowering(TheCrystals.LAPIS, "dyeCyan", new ItemStack(Items.PRISMARINE_SHARD), new ItemStack(Items.PRISMARINE_SHARD), new ItemStack(Items.PRISMARINE_SHARD));
-        addCrystalEmpowering(TheCrystals.DIAMOND, "dyeLightBlue", new ItemStack(Items.CLAY_BALL), new ItemStack(Items.CLAY_BALL), new ItemStack(Blocks.CLAY));
-        addCrystalEmpowering(TheCrystals.IRON, "dyeGray", new ItemStack(Items.SNOWBALL), new ItemStack(Blocks.STONE_BUTTON), new ItemStack(Blocks.COBBLESTONE));
+        addCrystalEmpowering(TheCrystals.REDSTONE, "dyeGray", new ItemStack(Items.COAL, 1, 1), new ItemStack(Items.COAL, 1, 1), new ItemStack(Items.COAL, 1, 1));
+        addCrystalEmpowering(TheCrystals.LAPIS, "dyeGray", new ItemStack(Items.COAL, 1, 1), new ItemStack(Items.COAL, 1, 1), new ItemStack(Items.COAL, 1, 1));
+        addCrystalEmpowering(TheCrystals.DIAMOND, "dyeGray", new ItemStack(Items.COAL, 1, 1), new ItemStack(Items.COAL, 1, 1), new ItemStack(Items.COAL, 1, 1));
+        addCrystalEmpowering(TheCrystals.IRON, "dyeGray", new ItemStack(Items.COAL, 1, 1), new ItemStack(Items.COAL, 1, 1), new ItemStack(Items.COAL, 1, 1));
 
-        addCrystalEmpowering(TheCrystals.COAL, "dyeBlack", new ItemStack(Items.COAL, 1, 1), new ItemStack(Items.FLINT), new ItemStack(Blocks.STONE));
+        addCrystalEmpowering(TheCrystals.COAL, "dyeGray", new ItemStack(Items.COAL, 1, 1), new ItemStack(Items.COAL, 1, 1), new ItemStack(Items.COAL, 1, 1));
 
         List<ItemStack> balls = OreDictionary.getOres("slimeball");
         for(ItemStack ball : balls){
-            addCrystalEmpowering(TheCrystals.EMERALD, "dyeLime", new ItemStack(Blocks.TALLGRASS, 1, 1), new ItemStack(Blocks.SAPLING), ball.copy());
+            addCrystalEmpowering(TheCrystals.EMERALD, "dyeGray", new ItemStack(Blocks.TALLGRASS, 1, 1), new ItemStack(Blocks.SAPLING), ball.copy());
         }
 
         ItemStack seed = new ItemStack(InitItems.itemCanolaSeed);
