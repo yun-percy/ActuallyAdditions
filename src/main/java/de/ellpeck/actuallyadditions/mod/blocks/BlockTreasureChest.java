@@ -120,7 +120,7 @@ public class BlockTreasureChest extends BlockBase{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.UNCOMMON;
+        return EnumRarity.COMMON;
     }
 
     @Override

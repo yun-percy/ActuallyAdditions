@@ -112,7 +112,7 @@ public class BlockOilGenerator extends BlockContainerBase{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.RARE;
+        return EnumRarity.COMMON;
     }
 
     @Override

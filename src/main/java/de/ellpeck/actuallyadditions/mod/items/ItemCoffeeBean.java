@@ -24,6 +24,6 @@ public class ItemCoffeeBean extends ItemFoodBase{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.RARE;
+        return EnumRarity.COMMON;
     }
 }

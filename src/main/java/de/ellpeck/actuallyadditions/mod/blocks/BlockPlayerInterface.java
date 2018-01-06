@@ -47,7 +47,7 @@ public class BlockPlayerInterface extends BlockContainerBase implements IHudDisp
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.EPIC;
+        return EnumRarity.COMMON;
     }
 
     @Override

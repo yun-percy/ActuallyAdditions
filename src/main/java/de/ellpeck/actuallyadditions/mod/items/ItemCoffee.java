@@ -127,7 +127,7 @@ public class ItemCoffee extends ItemFoodBase{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.RARE;
+        return EnumRarity.COMMON;
     }
 
     public static class MilkIngredient extends CoffeeIngredient{

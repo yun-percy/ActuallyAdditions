@@ -40,7 +40,7 @@ public class ItemBattery extends ItemEnergy{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.RARE;
+        return EnumRarity.COMMON;
     }
 
     @Override

@@ -102,6 +102,6 @@ public class BlockDisplayStand extends BlockContainerBase{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.RARE;
+        return EnumRarity.COMMON;
     }
 }

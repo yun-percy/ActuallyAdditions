@@ -146,6 +146,6 @@ public class ItemPhantomConnector extends ItemBase{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.EPIC;
+        return EnumRarity.COMMON;
     }
 }

@@ -24,7 +24,7 @@ public class ItemArmorAA extends ItemArmor{
     private final EnumRarity rarity;
 
     public ItemArmorAA(String name, ArmorMaterial material, int type, ItemStack repairItem){
-        this(name, material, type, repairItem, EnumRarity.RARE);
+        this(name, material, type, repairItem, EnumRarity.COMMON);
     }
 
     public ItemArmorAA(String name, ArmorMaterial material, int type, ItemStack repairItem, EnumRarity rarity){

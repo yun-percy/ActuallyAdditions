@@ -16,13 +16,13 @@ import net.minecraft.item.EnumRarity;
 public enum TheDusts{
 
     IRON("Iron", 7826534, EnumRarity.COMMON),
-    GOLD("Gold", 14335744, EnumRarity.UNCOMMON),
-    DIAMOND("Diamond", 292003, EnumRarity.RARE),
-    EMERALD("Emerald", 4319527, EnumRarity.EPIC),
-    LAPIS("Lapis", 1849791, EnumRarity.UNCOMMON),
-    QUARTZ("Quartz", StringUtil.DECIMAL_COLOR_WHITE, EnumRarity.UNCOMMON),
-    COAL("Coal", 0, EnumRarity.UNCOMMON),
-    QUARTZ_BLACK("QuartzBlack", 18, EnumRarity.RARE);
+    GOLD("Gold", 14335744, EnumRarity.COMMON),
+    DIAMOND("Diamond", 292003, EnumRarity.COMMON),
+    EMERALD("Emerald", 4319527, EnumRarity.COMMON),
+    LAPIS("Lapis", 1849791, EnumRarity.COMMON),
+    QUARTZ("Quartz", StringUtil.DECIMAL_COLOR_WHITE, EnumRarity.COMMON),
+    COAL("Coal", 0, EnumRarity.COMMON),
+    QUARTZ_BLACK("QuartzBlack", 18, EnumRarity.COMMON);
 
     public final String name;
     public final int color;

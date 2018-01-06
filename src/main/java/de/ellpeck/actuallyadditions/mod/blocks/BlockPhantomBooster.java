@@ -52,7 +52,7 @@ public class BlockPhantomBooster extends BlockContainerBase{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.EPIC;
+        return EnumRarity.COMMON;
     }
 
 

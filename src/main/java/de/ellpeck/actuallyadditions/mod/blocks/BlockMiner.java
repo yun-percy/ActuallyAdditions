@@ -61,7 +61,7 @@ public class BlockMiner extends BlockContainerBase implements IHudDisplay{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.RARE;
+        return EnumRarity.COMMON;
     }
 
 

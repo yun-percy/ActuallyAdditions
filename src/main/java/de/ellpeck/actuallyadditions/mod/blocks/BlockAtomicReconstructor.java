@@ -135,7 +135,7 @@ public class BlockAtomicReconstructor extends BlockContainerBase implements IHud
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.EPIC;
+        return EnumRarity.COMMON;
     }
 
     @Override

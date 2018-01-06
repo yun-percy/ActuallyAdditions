@@ -96,7 +96,7 @@ public class ItemBooklet extends ItemBase implements IHudDisplay{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.EPIC;
+        return EnumRarity.COMMON;
     }
 
     @Override

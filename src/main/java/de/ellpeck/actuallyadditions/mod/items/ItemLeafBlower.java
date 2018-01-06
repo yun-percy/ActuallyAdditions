@@ -67,7 +67,7 @@ public class ItemLeafBlower extends ItemBase implements IDisplayStandItem{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return this.isAdvanced ? EnumRarity.EPIC : EnumRarity.RARE;
+        return this.isAdvanced ? EnumRarity.COMMON : EnumRarity.COMMON;
     }
 
     @Override

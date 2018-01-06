@@ -66,7 +66,7 @@ public class ItemBag extends ItemBase{
             }
         }
 
-        // don't count the filter 4 slots 
+        // don't count the filter 4 slots
         slotsTotal = slotsTotal-4;
 
         tooltip.add(TextFormatting.ITALIC.toString()+slotsFilled+"/"+slotsTotal+" filled slots");
@@ -197,6 +197,6 @@ public class ItemBag extends ItemBase{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return this.isVoid ? EnumRarity.RARE : EnumRarity.UNCOMMON;
+        return this.isVoid ? EnumRarity.COMMON : EnumRarity.COMMON;
     }
 }

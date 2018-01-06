@@ -114,7 +114,7 @@ public class BlockFurnaceDouble extends BlockContainerBase{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.UNCOMMON;
+        return EnumRarity.COMMON;
     }
 
     @Override

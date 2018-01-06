@@ -32,10 +32,10 @@ public final class InitFluids{
     public static Block blockEmpoweredOil;
 
     public static void init(){
-        fluidCanolaOil = registerFluid("canolaoil", "blockCanolaOil", EnumRarity.UNCOMMON);
-        fluidOil = registerFluid("oil", "blockOil", EnumRarity.UNCOMMON);
-        fluidCrystalOil = registerFluid("crystaloil", "blockCrystalOil", EnumRarity.RARE);
-        fluidEmpoweredOil = registerFluid("empoweredoil", "blockEmpoweredOil", EnumRarity.EPIC);
+        fluidCanolaOil = registerFluid("canolaoil", "blockCanolaOil", EnumRarity.COMMON);
+        fluidOil = registerFluid("oil", "blockOil", EnumRarity.COMMON);
+        fluidCrystalOil = registerFluid("crystaloil", "blockCrystalOil", EnumRarity.COMMON);
+        fluidEmpoweredOil = registerFluid("empoweredoil", "blockEmpoweredOil", EnumRarity.COMMON);
 
         blockCanolaOil = registerFluidBlock(fluidCanolaOil, Material.WATER, "blockCanolaOil");
         blockOil = registerFluidBlock(fluidOil, Material.WATER, "blockOil");

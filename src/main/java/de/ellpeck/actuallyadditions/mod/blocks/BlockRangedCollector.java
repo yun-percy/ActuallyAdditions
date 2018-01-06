@@ -60,7 +60,7 @@ public class BlockRangedCollector extends BlockContainerBase{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.EPIC;
+        return EnumRarity.COMMON;
     }
 
     @Override

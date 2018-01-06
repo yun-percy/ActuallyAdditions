@@ -61,6 +61,6 @@ public class BlockFluidFlowing extends BlockFluidClassic implements ItemBlockBas
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.EPIC;
+        return EnumRarity.COMMON;
     }
 }

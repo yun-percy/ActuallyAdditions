@@ -130,7 +130,7 @@ public class BlockColoredLamp extends BlockBase{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.RARE;
+        return EnumRarity.COMMON;
     }
 
     @Override

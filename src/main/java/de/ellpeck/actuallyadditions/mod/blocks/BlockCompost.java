@@ -153,7 +153,7 @@ public class BlockCompost extends BlockContainerBase implements IHudDisplay{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.UNCOMMON;
+        return EnumRarity.COMMON;
     }
 
     @Override

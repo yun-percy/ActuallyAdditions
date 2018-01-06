@@ -88,7 +88,7 @@ public class BlockInputter extends BlockContainerBase{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.EPIC;
+        return EnumRarity.COMMON;
     }
 
     public static class TheItemBlock extends ItemBlockBase{

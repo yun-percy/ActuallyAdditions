@@ -39,6 +39,6 @@ public class ItemResonantRice extends ItemBase{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.EPIC;
+        return EnumRarity.COMMON;
     }
 }

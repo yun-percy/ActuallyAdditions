@@ -77,6 +77,6 @@ public class ItemWaterRemovalRing extends ItemEnergy{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.EPIC;
+        return EnumRarity.COMMON;
     }
 }

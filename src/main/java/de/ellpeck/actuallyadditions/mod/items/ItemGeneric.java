@@ -24,6 +24,6 @@ public class ItemGeneric extends ItemBase{
 
     @Override
     public EnumRarity getRarity(ItemStack stack){
-        return EnumRarity.UNCOMMON;
+        return EnumRarity.COMMON;
     }
 }
