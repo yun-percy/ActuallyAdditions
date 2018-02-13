@@ -69,8 +69,8 @@ public class EntityWorm extends Entity{
             this.timer++;
 
             if(this.timer%50 == 0){
-                for(int x = -1; x <= 1; x++){
-                    for(int z = -1; z <= 1; z++){
+                for(int x = -4; x <= 4; x++){
+                    for(int z = -4; z <= 4; z++){
                         BlockPos pos = new BlockPos(this.posX+x, this.posY, this.posZ+z);
                         IBlockState state = this.worldObj.getBlockState(pos);
                         Block block = state.getBlock();
